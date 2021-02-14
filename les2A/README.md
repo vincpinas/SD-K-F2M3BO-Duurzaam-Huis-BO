@@ -18,13 +18,13 @@ Het HTTP request wordt met ```<form action = "myApi.php">``` gedaan, de ingevoer
  
  
 # Opdracht
-1 Kopieer de code (clone of download)
-2 Test de code via jouw local webserver MAMP of XAMPP
-3 Bedenk code voor ``` case "easter egg": ```
-4 Bedenk code voor ``` case "bedenk zelf een code": ```
-5 Test jouw php script
-6 Upload jouw code naar GIT en Ma-cloud.  Zet in het README.md bestand de link naar Ma-cloud
-7 Lever de link naar GIT in
+1. Kopieer de code (clone of download)
+2. Test de code via jouw local webserver MAMP of XAMPP
+3. Bedenk code voor ``` case "easter egg": ```
+4. Bedenk code voor ``` case "bedenk zelf een code": ```
+5. Test jouw php script
+6. Upload jouw code naar GIT en Ma-cloud.  Zet in het README.md bestand de link naar Ma-cloud
+7. Lever de link naar GIT in
    
     
 ```
