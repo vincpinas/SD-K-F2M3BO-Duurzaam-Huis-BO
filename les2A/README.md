@@ -1,6 +1,6 @@
 ## Les2A
 
-Het HTTP request wordt met <form action = "myApi.php"> gedaan, de ingevoerde tekst komt rechtstreeks uit het Input veld.
+Het HTTP request wordt met ```<form action = "myApi.php">``` gedaan, de ingevoerde tekst komt rechtstreeks uit het Input veld.
 ```
     <form  action = "myApi.php" method = "GET" class="myForm">
         <fieldset>
