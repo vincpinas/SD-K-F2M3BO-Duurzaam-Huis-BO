@@ -31,10 +31,10 @@
                  // hier moet jij zelf code schrijven
                     
                 case "easter egg":
-                    print " <br> hier moet jij zelf code schrijven";
+                    print " <br> ik vind chocola niet lekker dus er zijn hier geen eitjes.";
                     break;
-                case "bedenk zelf een code":
-                    // jouw code hier
+                case "portfolio":
+                    print " <br><br> Go to my portfolio! <br> <h1><a href='http://30472.hosts1.ma-cloud.nl/portfolio/'>Portfolio</a></h1>";
                     break;
                   // einde eigen code  
                 default:
