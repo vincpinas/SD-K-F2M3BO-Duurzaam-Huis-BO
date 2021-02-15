@@ -2,6 +2,7 @@
 
 Het HTTP request wordt met Javascript Ajax gedaan ```function makeAjaxCall(url, methodType)``` gedaan, de ingevoerde tekst wordt met JS uit het Input veld gehaald. Het HTML Form heeft geen action meer ```<form class="myForm">```
 
+[demo](https://schw.hosts1.ma-cloud.nl/iot/les2B/testMyApiAjax.html) https://schw.hosts1.ma-cloud.nl/iot/les2B/testMyApiAjax.html
 
 ### het HTML form
 ```
