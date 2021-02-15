@@ -40,10 +40,5 @@
                 default:
                     print "<h3>please read the manual for valid requests &#128540;</h3>";
             }
-            /*
-            *
-            * hier komt jouw code voor de extra functie
-            *
-            */
         }     
 ?>
