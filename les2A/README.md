@@ -14,7 +14,7 @@ Het HTTP request wordt met ```<form action = "myApi.php">``` gedaan, de ingevoer
     
  ```   
  
- [demo](https://schw.hosts1.ma-cloud.nl/iot/les2A/testMyApi.html)https://schw.hosts1.ma-cloud.nl/iot/les2A/testMyApi.html
+ [demo](https://schw.hosts1.ma-cloud.nl/iot/les2A/testMyApi.html) https://schw.hosts1.ma-cloud.nl/iot/les2A/testMyApi.html
  
  
 # Opdracht
