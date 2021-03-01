@@ -6,11 +6,14 @@
     <title>myAPI</title>
     <link rel="stylesheet" href="style.css"> 
     <script src="ajax_callback.js" defer></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="Components.js" defer></script>
   </head>
   <body>
-    <h1>Test myAPI</h1>
+    <h1 id="myHeader">Test myAPI</h1>
     <form class="myForm">
-        <fieldset>
+        <fieldset class="formControl">
             <legend>Data verzenden met HTTP GET protocol</legend>
             <label>Data</label>
             <input type = "text" name = "data" id="myTextInput">
@@ -19,8 +22,12 @@
        </fieldset>
     </form>
     <div id="antwoordHier"></div>
+    <div id="c-alert-container" class="c-alert-container">
+      <div id="alertContent" class="c-alert">
+          <p>{alert.text}</p>
+      </div>
+  </div>
     <script>
-
       let controlScript = "myApi.php"; // adres van de Api
 
       let myTextInput = document.getElementById('myTextInput'); // bind element text invoerveld

@@ -1,22 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-html{
-    font-family: monospace;
-    font-weight: bold; 
-    font-size: 1.5em;
-    }
+*, *::after, *::before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+:root {
+    color: rgb(214, 214, 214);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(17, 17, 17);
+}
+
+.formControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .myForm{
-    width: 50%;         
+    width: 50%; 
+    margin-top: 1rem;        
+    font-size: 1.2em;
     }       
 .myForm input[type=text]{
     width: 30%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border-color: #FF00FF;
+    border-color: #6961ff;
     }     
+
 #antwoordHier{
-    font-family: sans-serif;
     font-size: 0.7em;
     width: 50%;
     border: 1px solid;
+    font-size: 1.5em;
+}
+
+#myButton {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    color: rgb(204, 204, 204);
+    background-color: rgb(21, 21, 21);
+    border: 2px solid rgb(24, 24, 24);
+    transition: all 0.8s ease 0s;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.261);
+    cursor: pointer;
+    margin: 10px;
+}
+
+#myButton:hover {
+    color: rgb(122, 122, 122);
+  }
+
+  .c-alert-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    align-items: flex-end;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transition: all .7s;
+}
+
+.c-alert {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.658);
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 8px;
+    display: flex;
+    transition: all 1.5s cubic-bezier(.74,.06,.32,1.44);
+    transform: translateX(450px);
+    margin-bottom: 6px;
+    letter-spacing: 1.2px;
+}
+
+.c-alert.active {
+    margin-right: 10px;
+    transform: translateX(0px);
+}
+
+.blast-text {
+    transition: .2s;
+    display:inline-block;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.blast-text:hover {
+    color: #6961ff;
+}
+
+@keyframes rubberBand{
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(1.25,.75,1);
+    }
+    45%{
+        transform: scale3d(.75,1,1);
+    }
+    60%{
+        transform: scale3d(1.2,.8,1);
+    }
+    75%{
+        transform: scale3d(1.05,.95,1);
+    }
+    100%{
+        transform: scale3d(1,1,1); 
+    }
 }
